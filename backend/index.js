@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-const createTables = require("createTables");
-const routes = require("routes");
+const createTables = require("./createTables");
+const routes = require("./routes");
 
 app.use(
   cors({
