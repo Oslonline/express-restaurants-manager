@@ -6,7 +6,7 @@ const routes = require("routes");
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // Remplacez le port si nécessaire
+    origin: "http://localhost:5173",
   })
 );
 app.use(routes);
