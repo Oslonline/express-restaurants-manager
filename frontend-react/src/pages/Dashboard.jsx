@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 import { MdOutlineLocationOn, MdOutlineTableBar } from "react-icons/md";
 import { GrUserWorker } from "react-icons/gr";
@@ -124,7 +125,10 @@ export default function Dashboard() {
 
   return (
     <>
-      <div className="flex flex-col gap-8 p-8 bg-gray-50">
+      <Helmet>
+        <title>Dashboard - Restaurant Manager</title>
+      </Helmet>
+      <div className="flex flex-col gap-8 bg-gray-50 p-8">
         <div className="flex justify-between">
           <h1 className="text-xl font-semibold text-gray-950">Mes restaurants :</h1>
           <button onClick={handleAddButtonClick} className="flex items-center gap-2 rounded-md border border-green-600 bg-green-600 px-3 py-2 text-gray-50 duration-200 hover:bg-transparent hover:text-green-600">
