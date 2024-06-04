@@ -33,3 +33,8 @@ A NodeJS (express) project of restaurant manager with ReactJS & VueJS frontend.
 
 **Run the optimized application locally:**
 `npm run serve`
+
+# Screenshots
+
+![Capture d’écran 2024-06-04 à 13.15.34](https://i.imgur.com/BhMoIj4.png)
+![Capture d’écran 2024-06-04 à 13.15.55](https://i.imgur.com/MCvU6w4.png)
